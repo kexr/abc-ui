@@ -11,7 +11,7 @@ import LogoTitle from './components/LogoTitle.vue'
 
 <style>
 .component_index {
-  height: 100vh;
+  height: calc(100vh - 3.8rem);
 }
 
 body {

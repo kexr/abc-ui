@@ -93,7 +93,7 @@ console.log(props);
 	font-family: PingFangSC-Regular, PingFang SC;
 	font-weight: 400;
 	color: #666666;
-	width: 3.3rem;
+	width: 2.7rem;
 }
 
 .auto {
@@ -110,17 +110,18 @@ console.log(props);
 	color: #333333;
 	// margin-left: 18px;
 	position: relative;
+	margin-left: .8rem;
 
 	img {
-		width: 3rem;
-		height: 3rem;
+		width: 1.5rem;
+		height: 1.5rem;
 		border-radius: 50%;
 		position: absolute;
-		top: calc(50% - 30px);
+		top: calc(50% - 0.75rem);
 	}
 
 	.imgMsg {
-		margin-left: 66px;
+		margin-left: 2rem;
 	}
 }
 
