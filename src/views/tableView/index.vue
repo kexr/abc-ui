@@ -1,6 +1,6 @@
 <template>
 	<div class="tableView">
-		<ContentModel>
+		<ContentModel title="Table表格">
 			<template #content>
 				<div class="title">介绍</div>
 				<div>用于展示多条结构类似的数据。</div>
@@ -28,7 +28,7 @@
 				</el-table>
 			</template>
 			<template #content_h5>
-				<div class="title">基础用法</div>
+				<div class="title h5">基础用法</div>
 				<Table :tableList="tablelist" :tableColList="tableColList"></Table>
 			</template>
 		</ContentModel>
@@ -73,7 +73,9 @@ $content_margin: 8px;
 		padding: 1rem 0;
 		font-size: 1.3rem;
 		font-weight: bold;
-
+		&.h5 {
+			font-size: 1rem;
+		}
 		&.sub {
 			font-size: 1rem;
 			padding: 0.3rem 0;

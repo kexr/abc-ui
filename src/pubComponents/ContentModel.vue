@@ -1,6 +1,7 @@
 <template>
 	<div class="content_model">
 		<div class="content">
+			<h1>{{ title }}</h1>
 			<div class="card">
 				<slot name="content"></slot>
 			</div>
@@ -12,6 +13,12 @@
 </template>
 
 <script setup>
+let props = defineProps({
+	title: {
+		type: String,
+		default: '',
+	},
+});
 </script>
 
 <style lang='scss' scoped>
@@ -33,7 +40,11 @@ $content_margin: 8px;
 		flex: 1;
 		height: auto;
 		margin: $content_margin;
-
+		h1 {
+			margin: .8rem 0 1.8rem .4rem;
+			text-align: left;
+			font-weight: 400;
+		}
 	}
 
 	.view_h5 {

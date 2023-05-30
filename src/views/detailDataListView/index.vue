@@ -1,6 +1,6 @@
 <template>
 	<div class="tableView">
-	<ContentModel>
+	<ContentModel title="信息列表">
 		<template #content>
 			<div class="title">介绍</div>
 			<div>用于展示包含两列的信息列表，第一列为标题，第二列为内容。</div>
@@ -44,19 +44,19 @@
 			</el-table>
 		</template>
 		<template #content_h5>
-			<div class="title">基础用法</div>
+			<div class="title h5">基础用法</div>
 			<DetailDataList :list="[{ title: '姓名', val: '张三', }, { title: '年龄', val: '20', }, ]">
 			</DetailDataList>
-			<div class="title">自定义头像和颜色</div>
+			<div class="title h5">自定义头像和颜色</div>
 			<DetailDataList :list="detailDataList2">
 			</DetailDataList>
-			<div class="title">右侧插槽</div>
+			<div class="title h5">右侧插槽</div>
 			<DetailDataList :list="detailDataList3">
 				<template #01="{item}">
 					<div>自定义内容{{ item.slot }}</div>
 				</template>
 			</DetailDataList>
-			<div class="title">自由排列</div>
+			<div class="title h5">自由排列</div>
 			<DetailDataList :list="[{ title: '姓名', val: '张三', }, { title: '兴趣爱好', val: '睡觉吃饭打豆豆', }, ]" :auto="true">
 			</DetailDataList>
 		</template>
@@ -98,7 +98,9 @@ $content_margin: 8px;
 		padding: 1rem 0;
 		font-size: 1.3rem;
 		font-weight: bold;
-
+		&.h5 {
+			font-size: 1rem;
+		}
 		&.sub {
 			font-size: 1rem;
 			padding: 0.3rem 0;

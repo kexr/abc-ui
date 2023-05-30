@@ -1,6 +1,6 @@
 <template>
 	<div class="userTitleView">
-		<ContentModel>
+		<ContentModel title="头像信息卡片">
 			<template #content>
 				<div class="title">介绍</div>
 				<div>用户、商品信息卡片。</div>
@@ -34,7 +34,7 @@ const headimg = ref(https://img01.sogoucdn.com/app/a/100520093/8379901cc65ba509-
 				</el-table>
 			</template>
 			<template #content_h5>
-				<div class="title">基础用法</div>
+				<div class="title h5">基础用法</div>
 				<userTitle userName="张三" userMsg="简介简介简介简介简介简介" headimg="https://img01.sogoucdn.com/app/a/100520093/8379901cc65ba509-45c21ceb904429fc-197de0c5207df944e4cf8cf5f4482d4b.jpg">
                     <template #rightBtn>
                         <div class="user_msg_link">详情 ></div>
@@ -82,6 +82,9 @@ $content_margin: 8px;
 		padding: 1rem 0;
 		font-size: 1.3rem;
 		font-weight: bold;
+		&.h5 {
+			font-size: 1rem;
+		}
 
 		&.sub {
 			font-size: 1rem;
