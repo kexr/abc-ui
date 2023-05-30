@@ -1,6 +1,6 @@
 <template>
 	<div class="tableView">
-	<ContentModel title="信息列表">
+	<ContentModel title="detailDataList列表">
 		<template #content>
 			<div class="title">介绍</div>
 			<div>用于展示包含两列的信息列表，第一列为标题，第二列为内容。</div>

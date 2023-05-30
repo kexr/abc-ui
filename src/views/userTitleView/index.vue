@@ -1,6 +1,6 @@
 <template>
 	<div class="userTitleView">
-		<ContentModel title="头像信息卡片">
+		<ContentModel title="userTitle卡片">
 			<template #content>
 				<div class="title">介绍</div>
 				<div>用户、商品信息卡片。</div>

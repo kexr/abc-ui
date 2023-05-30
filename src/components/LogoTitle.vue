@@ -1,7 +1,7 @@
 <template>
   <div class="logo_title">
     <img src="../assets/logo.png" alt="">
-    ABC-UI
+    Template<span class="msg">(适用于vue3)</span>
   </div>
 </template>
 
@@ -23,6 +23,11 @@
     img {
       width: 28px;
       margin-right: 12px;
+    }
+    .msg {
+      font-size: 1rem;
+      // color: #999;
+      margin-left: 14px;
     }
 }
 </style>
