@@ -55,11 +55,11 @@ $content_margin: 8px;
 	.title {
 		text-align: left;
 		padding: 1rem 0;
-		font-size: 18px;
+		font-size: 1.3rem;
 		font-weight: bold;
 
 		&.sub {
-			font-size: 16px;
+			font-size: 1rem;
 			padding: 0.3rem 0;
 		}
 	}

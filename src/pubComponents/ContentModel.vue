@@ -39,14 +39,14 @@ $content_margin: 8px;
 	.view_h5 {
 		padding: 1rem;
 		padding-top: 0;
-		width: 350px;
-		height: 550px;
+		width: 20rem;
+		height: 34rem;
 		margin: $content_margin $content_margin 20px 0;
 
 		.title {
 			text-align: left;
 			padding: 1rem 0;
-			font-size: 16px;
+			font-size: 1rem;
 			font-weight: bold;
 		}
 	}

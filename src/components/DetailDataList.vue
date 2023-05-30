@@ -50,8 +50,6 @@ console.log(props);
 </script>
   
 <style lang="scss" scoped>
-$fontSize: '16px';
-$lineHeight: '30px';
 .flex {
 	display: flex;
 }
@@ -83,10 +81,10 @@ $lineHeight: '30px';
 		text-align: center;
 
 		img {
-			width: 140px;
-			height: 140px;
-			margin-bottom: 10px;
-			margin-top: 24px;
+			width: 8rem;
+			height: 8rem;
+			margin-bottom: 0.6rem;
+			margin-top: 1.3rem;
 		}
 	}
 }
@@ -95,7 +93,7 @@ $lineHeight: '30px';
 	font-family: PingFangSC-Regular, PingFang SC;
 	font-weight: 400;
 	color: #666666;
-	width: 54px;
+	width: 3.3rem;
 }
 
 .auto {
@@ -114,8 +112,8 @@ $lineHeight: '30px';
 	position: relative;
 
 	img {
-		width: 50px;
-		height: 50px;
+		width: 3rem;
+		height: 3rem;
 		border-radius: 50%;
 		position: absolute;
 		top: calc(50% - 30px);

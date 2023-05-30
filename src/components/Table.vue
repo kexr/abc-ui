@@ -27,10 +27,10 @@ let props = defineProps({
 <style lang="scss" scoped>
 .table {
 	display: flex;
-	font-size: 0.6rem;
+	font-size: #{$fontSizeTable};
 	font-weight: 400;
 	line-height: 0.1rem;
-	border-radius: 12px;
+	border-radius: #{$borderRadius};
 	overflow: hidden;
 	width: 100%;
 
@@ -63,19 +63,19 @@ let props = defineProps({
 	}
 
 	.col:first-child .row:first-child {
-		border-radius: 12px 0px 0px 0px;
+		border-radius: #{$borderRadius} 0px 0px 0px;
 	}
 
 	.col:first-child .row:last-child {
-		border-radius: 0px 0px 0px 12px;
+		border-radius: 0px 0px 0px #{$borderRadius};
 	}
 
 	.col:last-child .row:first-child {
-		border-radius: 0px 12px 0px 0px;
+		border-radius: 0px #{$borderRadius} 0px 0px;
 	}
 
 	.col:last-child .row:last-child {
-		border-radius: 0px 0px 12px 0px;
+		border-radius: 0px 0px #{$borderRadius} 0px;
 	}
 }
 </style>

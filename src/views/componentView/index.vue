@@ -43,34 +43,12 @@ $content_margin: 8px;
     .left_side {
         .el-menu-vertical-demo {
             height: 100%;
+            width: 11rem;
         }
     }
 
     .content {
         flex: 1;
     }
-
-    // .card {
-    //     border-radius: $content_margin;
-    //     background-color: #fff;
-    // }
-
-    // .content {
-    //     flex: 1;
-    //     margin: $content_margin;
-    // }
-
-    // .view_h5 {
-    //     padding: 1rem;
-    //     width: 350px;
-    //     height: 550px;
-    //     margin: $content_margin $content_margin 20px 0;
-    //     .title {
-    //         text-align: left;
-    //         margin-bottom: 1rem;
-    //         font-size: 16px;
-    //         font-weight: bold;
-    //     }
-    // }
 }
 </style>
