@@ -8,6 +8,9 @@
                 <el-menu-item index="/detailDataList">
                     <span>信息列表</span>
                 </el-menu-item>
+                <el-menu-item index="/userTitle">
+                    <span>头像信息卡片</span>
+                </el-menu-item>
             </el-menu>
         </div>
         <div class="content">
