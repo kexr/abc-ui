@@ -2,6 +2,7 @@ import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
 export default () => {
     return defineConfig({
+        base: './',
         plugins: [
           vue(),
         ],

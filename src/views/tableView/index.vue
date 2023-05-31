@@ -6,7 +6,7 @@
 				<div>用于展示多条结构类似的数据。</div>
 				<div class="title">代码演示</div>
 				<div class="title sub">基础用法</div>
-				<highlightjs autodetect code="<Table :tableList='tablelist' :tableColList='tableColList'>123</Table>" />
+				<highlightjs code="<Table :tableList='tablelist' :tableColList='tableColList'>123</Table>" />
 				<highlightjs autodetect :code="`const tablelist = ref([
     { name: '医疗险', already: '-', noalready: '-', all: '10万' },
     { name: '重疾险', already: '80万', noalready: '10万', all: '-' },
@@ -39,6 +39,7 @@
 import { ref } from 'vue'
 import Table from '../../components/Table.vue'
 import ContentModel from '../../pubComponents/ContentModel.vue'
+// console.log(highlightjs)
 const tablelist = ref([
 	{ name: '医疗险', already: '-', noalready: '-', all: '10万' },
 	{ name: '重疾险', already: '80万', noalready: '10万', all: '-' },
