@@ -15,7 +15,7 @@
     <div class='user_msg_link'>详情 ></div>
   </template>
 </userTitle>" />
-				<highlightjs autodetect :code="`const userName = ref(张三)
+				<highlightjs class="code" autodetect :code="`const userName = ref(张三)
 const userMsg = ref(简介简介简介简介简介简介)
 const headimg = ref(https://img01.sogoucdn.com/app/a/100520093/8379901cc65ba509-45c21ceb904429fc-197de0c5207df944e4cf8cf5f4482d4b.jpg)
 `" />
@@ -94,5 +94,9 @@ $content_margin: 8px;
     .user_msg_link {
         font-size: #{$fontSizeTable};
     }
+}
+.code {
+	width: 100%;
+	overflow: scroll;
 }
 </style>

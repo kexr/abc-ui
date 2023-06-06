@@ -11,6 +11,9 @@
                 <el-menu-item index="/userTitle">
                     <span>userTitle卡片</span>
                 </el-menu-item>
+                <el-menu-item index="/chipMenu">
+                    <span>chipMenu瓷片区</span>
+                </el-menu-item>
             </el-menu>
         </div>
         <div class="content">
@@ -51,7 +54,8 @@ $content_margin: 8px;
     }
 
     .content {
-        flex: 1;
+        width: calc(100% - 11rem);
+        // flex: 1;
         height: 100%;
         overflow: auto;
     }

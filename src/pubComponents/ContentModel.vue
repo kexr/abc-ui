@@ -37,7 +37,9 @@ $content_margin: 8px;
 	}
 
 	.content {
-		flex: 1;
+		// flex: 1;
+		flex: none;
+		width: calc(100% - 24rem);
 		height: auto;
 		margin: $content_margin;
 		h1 {
@@ -53,6 +55,7 @@ $content_margin: 8px;
 		width: 20rem;
 		height: 34rem;
 		margin: $content_margin $content_margin 20px 0;
+		flex: none;
 
 		.title {
 			text-align: left;
