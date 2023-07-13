@@ -37,7 +37,7 @@
 
 <script setup>
 import { ref } from 'vue'
-import Table from '../../components/Table.vue'
+import { Table } from 'gocopy-ui/ui'
 import ContentModel from '../../pubComponents/ContentModel.vue'
 // console.log(highlightjs)
 const tablelist = ref([

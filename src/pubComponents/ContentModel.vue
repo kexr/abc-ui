@@ -50,12 +50,13 @@ $content_margin: 8px;
 	}
 
 	.view_h5 {
-		padding: 1rem;
+		padding: 1rem 1rem;
 		padding-top: 0;
 		width: 20rem;
 		height: 34rem;
 		margin: $content_margin $content_margin 20px 0;
 		flex: none;
+		background-color: #fff;
 
 		.title {
 			text-align: left;

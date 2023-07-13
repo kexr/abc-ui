@@ -2,6 +2,14 @@
     <div class="component_index">
         <div class="left_side">
             <el-menu default-active="/table" class="el-menu-vertical-demo" @select="selectMenu">
+                <div class="left_side_title">开发指南</div>
+                <!-- <el-menu-item index="/install">
+                    <span>安装</span>
+                </el-menu-item> -->
+                <el-menu-item index="/startedQ">
+                    <span>快速上手</span>
+                </el-menu-item>
+                <div class="left_side_title">基础组件</div>
                 <el-menu-item index="/table">
                     <span>Table表格</span>
                 </el-menu-item>
@@ -50,6 +58,18 @@ $content_margin: 8px;
         .el-menu-vertical-demo {
             height: 100%;
             width: 11rem;
+        }
+        .el-menu{
+            padding-top: 10px;
+        }
+        .el-menu-item {
+            height: 40px;
+        } 
+        .left_side_title {
+            font-weight: 600;
+            text-align: left;
+            padding: 10px;
+            padding-left: 20px;
         }
     }
 

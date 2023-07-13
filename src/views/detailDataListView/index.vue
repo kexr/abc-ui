@@ -95,7 +95,7 @@ $content_margin: 8px;
 .tableView {
 	.title {
 		text-align: left;
-		padding: 1rem 0;
+		padding: 1rem 0rem;
 		font-size: 1.3rem;
 		font-weight: bold;
 		&.h5 {

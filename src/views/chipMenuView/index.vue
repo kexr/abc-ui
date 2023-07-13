@@ -42,7 +42,9 @@
 			</template>
 			<template #content_h5>
 				<div class="title h5">基础用法</div>
-				<ChipMenu :list="clipMenuList3" />
+				<div class="chipMenuBar">
+					<ChipMenu :list="clipMenuList3" />
+				</div>
 				<div class="title h5">动态行列</div>
 				<ChipMenu :list="clipMenuList" />
 			</template>
@@ -132,9 +134,15 @@ const eventTableData = ref([{
 $content_margin: 8px;
 
 .tableView {
+	.chipMenuBar {
+		background-color: #f6f6f6;
+		padding: .7rem;
+		margin-left: -1rem;
+		margin-right: -1rem;
+	}
 	.title {
 		text-align: left;
-		padding: 1rem 0;
+		padding: 1rem 1rem;
 		font-size: 1.3rem;
 		font-weight: bold;
 		&.h5 {

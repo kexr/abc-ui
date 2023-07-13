@@ -1,7 +1,7 @@
 <template>
   <div class="logo_title">
     <img src="../assets/logo.png" alt="">
-    Template<span class="msg">(适用于vue3)</span>
+    GoCopy<span class="msg">(适用于vue3的h5网站快速成型工具)</span>
   </div>
 </template>
 

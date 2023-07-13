@@ -3,7 +3,7 @@
         <div class="chip-menu-row" v-for="(row, i) in chipMenuList" :key="i">
             <div class="chip-menu-item" v-for="item in row" :key="item.id">
                 <img :src="getAssetsFile(item.icon)" alt="" :data-id="item.id">
-                {{ item.label }}
+                <div class="label">{{ item.label }}</div>
             </div>
         </div>
     </div>
@@ -63,15 +63,21 @@ const chipMenuClick = (val) => {
 
         .chip-menu-item {
             flex: 1;
-
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
             // border-radius: 52px;
             &:not(:last-child) {
                 margin-right: #{$marginRight};
             }
 
             img {
-                width: 100%;
+                width: 60%;
                 display: block;
+            }
+            .label {
+                margin-top: 0.3rem;
             }
 
         }
