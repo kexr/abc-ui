@@ -6,6 +6,7 @@
 			<div>用于展示包含两列的信息列表，第一列为标题，第二列为内容。</div>
 			<div class="title">代码演示</div>
 			<div class="title sub">基础用法</div>
+			<highlightjs autodetect code="import { DetailDataList } from 'gocopy-ui/ui'" ></highlightjs>
 			<highlightjs autodetect code="<DetailDataList :list='list' /></DetailDataList>" />
 			<highlightjs autodetect :code="`const list = ref(
   {title: '姓名', val: '张三', },
@@ -66,7 +67,8 @@
 
 <script setup>
 import { ref } from 'vue'
-import DetailDataList from '../../components/DetailDataList.vue'
+// import DetailDataList from '../../components/DetailDataList.vue'
+import { DetailDataList } from 'gocopy-ui/ui'
 import ContentModel from '../../pubComponents/ContentModel.vue'
 
 const propsTableData = ref([{

@@ -6,6 +6,7 @@
 				<div>功能菜单，瓷片区，金刚区。</div>
 				<div class="title">代码演示</div>
 				<div class="title sub">基础用法</div>
+				<highlightjs autodetect code="import { ChipMenu } from 'gocopy-ui/ui'" ></highlightjs>
 				<highlightjs code="<ChipMenu :list='clipMenuList' @chipMenuClick='chipMenuClick'/>" />
 				<highlightjs autodetect :code="`const chipMenuClick = ref([
     { label: '测绘', id: 1, icon: '../assets/button/11.png' },
@@ -54,8 +55,8 @@
 
 <script setup>
 import { ref } from 'vue'
-import ChipMenu from '../../components/ChipMenu.vue'
 import ContentModel from '../../pubComponents/ContentModel.vue'
+import { ChipMenu } from 'gocopy-ui/ui'
 
 const clipMenuList = ref([
 	// [

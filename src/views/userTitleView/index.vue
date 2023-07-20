@@ -6,6 +6,7 @@
 				<div>用户、商品信息卡片。</div>
 				<div class="title">代码演示</div>
 				<div class="title sub">基础用法</div>
+				<highlightjs autodetect code="import { UserTitle } from 'gocopy-ui/ui'" ></highlightjs>
 				<highlightjs autodetect code="<userTitle
   :userName='userName'
   :userMsg='userMsg'
@@ -35,11 +36,11 @@ const headimg = ref(https://img01.sogoucdn.com/app/a/100520093/8379901cc65ba509-
 			</template>
 			<template #content_h5>
 				<div class="title h5">基础用法</div>
-				<userTitle userName="张三" userMsg="简介简介简介简介简介简介" headimg="https://img01.sogoucdn.com/app/a/100520093/8379901cc65ba509-45c21ceb904429fc-197de0c5207df944e4cf8cf5f4482d4b.jpg">
+				<UserTitle userName="张三" userMsg="简介简介简介简介简介简介" headimg="https://img01.sogoucdn.com/app/a/100520093/8379901cc65ba509-45c21ceb904429fc-197de0c5207df944e4cf8cf5f4482d4b.jpg">
                     <template #rightBtn>
                         <div class="user_msg_link">详情 ></div>
                     </template>
-                </userTitle>
+                </UserTitle>
 			</template>
 		</ContentModel>
 	</div>
@@ -47,7 +48,7 @@ const headimg = ref(https://img01.sogoucdn.com/app/a/100520093/8379901cc65ba509-
 
 <script setup>
 import { ref } from 'vue'
-import userTitle from '../../components/userTitle.vue'
+import { UserTitle } from 'gocopy-ui/ui'
 import ContentModel from '../../pubComponents/ContentModel.vue'
 const propsTableData = ref([{
 	params: 'userName',

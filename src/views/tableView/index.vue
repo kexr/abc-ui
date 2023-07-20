@@ -6,6 +6,7 @@
 				<div>用于展示多条结构类似的数据。</div>
 				<div class="title">代码演示</div>
 				<div class="title sub">基础用法</div>
+				<highlightjs autodetect code="import { Table } from 'gocopy-ui/ui'" ></highlightjs>
 				<highlightjs code="<Table :tableList='tablelist' :tableColList='tableColList'>123</Table>" />
 				<highlightjs autodetect :code="`const tablelist = ref([
     { name: '医疗险', already: '-', noalready: '-', all: '10万' },
