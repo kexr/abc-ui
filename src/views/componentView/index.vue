@@ -22,6 +22,9 @@
                 <el-menu-item index="/chipMenu">
                     <span>chipMenu瓷片区</span>
                 </el-menu-item>
+                <el-menu-item index="/compareList">
+                    <span>compareList数据对比</span>
+                </el-menu-item>
             </el-menu>
         </div>
         <div class="content">

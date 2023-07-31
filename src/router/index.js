@@ -4,11 +4,9 @@ import tableView from "../views/tableView/index.vue";
 import detailDataListView from "../views/detailDataListView/index.vue";
 import userTitleView from "../views/userTitleView/index.vue";
 import chipMenuView from "../views/chipMenuView/index.vue";
+import compareList from "../views/compareList/index.vue";
 import installView from "../views/install/index.vue";
 import startedQView from "../views/startedQ/index.vue";
-// 2. 定义一些路由
-// 每个路由都需要映射到一个组件。
-// 我们后面再讨论嵌套路由。
 const routes = [
   // { path: '/', component: Home },
   {
@@ -22,6 +20,7 @@ const routes = [
       { path: "/chipMenu", component: chipMenuView },
       { path: "/install", component: installView },
       { path: "/startedQ", component: startedQView },
+      { path: "/compareList", component: compareList },
     ],
   },
 ];

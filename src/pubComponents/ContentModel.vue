@@ -50,6 +50,7 @@ $content_margin: 8px;
 	}
 
 	.view_h5 {
+		overflow-y: scroll;
 		padding: 1rem 1rem;
 		padding-top: 0;
 		width: 20rem;

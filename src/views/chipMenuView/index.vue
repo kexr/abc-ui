@@ -9,22 +9,22 @@
 				<highlightjs autodetect code="import { ChipMenu } from 'gocopy-ui/ui'" ></highlightjs>
 				<highlightjs code="<ChipMenu :list='clipMenuList' @chipMenuClick='chipMenuClick'/>" />
 				<highlightjs autodetect :code="`const chipMenuClick = ref([
-    { label: '测绘', id: 1, icon: '../assets/button/11.png' },
-    { label: '信息', id: 2, icon: '../assets/button/22.png' },
-    { label: '地质', id: 3, icon: '../assets/button/33.png' },
-    { label: '供变电', id: 4, icon: '../assets/button/44.png' },
-    { label: '机量', id: 1, icon: '../assets/button/55.png' },
-    { label: '结构', id: 2, icon: '../assets/button/66.png' },
+    { label: '测绘', id: 1, icon: new URL('../../assets/button/11.png', import.meta.url).href },
+    { label: '信息', id: 2, icon: new URL('../../assets/button/22.png', import.meta.url).href },
+    { label: '地质', id: 3, icon: new URL('../../assets/button/33.png', import.meta.url).href },
+    { label: '供变电', id: 4, icon: new URL('../../assets/button/44.png', import.meta.url).href },
+    { label: '机量', id: 1, icon: new URL('../../assets/button/55.png', import.meta.url).href },
+    { label: '结构', id: 2, icon: new URL('../../assets/button/66.png', import.meta.url).href },
 ])`" />
 				<div class="title sub">动态行列</div>
 				<highlightjs code="<ChipMenu :list='clipMenuList' @chipMenuClick='chipMenuClick'/>" />
 				<highlightjs autodetect :code="`const tablelist = ref([[
-    { id: 1, icon: '../assets/button/1.png' },
-    { id: 2, icon: '../assets/button/2.png' },
-    { id: 3, icon: '../assets/button/1.png' },
+	{ id: 1, icon: new URL('../../assets/button/1.png', import.meta.url).href },
+	{ id: 2, icon: new URL('../../assets/button/2.png', import.meta.url).href },
+	{ id: 2, icon: new URL('../../assets/button/1.png', import.meta.url).href },
 ],[
-    { id: 4, icon: '../assets/button/1.png' },
-    { id: 5, icon: '../assets/button/2.png' },
+	{ id: 1, icon: new URL('../../assets/button/1.png', import.meta.url).href },
+	{ id: 2, icon: new URL('../../assets/button/2.png', import.meta.url).href },
 ]])`" />
 				<div class="title">API</div>
 				<div class="title sub">Props</div>
@@ -66,37 +66,37 @@ const clipMenuList = ref([
 	// 	{ label: '4', id: 4, icon: '../assets/button/1.png' },
 	// ],
 	[
-		{ id: 1, icon: '../assets/button/1.png' },
-		{ id: 2, icon: '../assets/button/2.png' },
-		{ id: 2, icon: '../assets/button/1.png' },
+		{ id: 1, icon: new URL('../../assets/button/1.png', import.meta.url).href },
+		{ id: 2, icon: new URL('../../assets/button/2.png', import.meta.url).href },
+		{ id: 2, icon: new URL('../../assets/button/1.png', import.meta.url).href },
 	],
 	[
-		{ id: 1, icon: '../assets/button/1.png' },
-		{ id: 2, icon: '../assets/button/2.png' },
+		{ id: 1, icon: new URL('../../assets/button/1.png', import.meta.url).href },
+		{ id: 2, icon: new URL('../../assets/button/2.png', import.meta.url).href },
 	],
 ])
 
 const clipMenuList2 = ref([
 [
-    { label: '1', id: 1, icon: '../assets/button/1.png' },
-    { label: '2', id: 2, icon: '../assets/button/2.png' },
-    { label: '3', id: 3, icon: '../assets/button/3.png' },
-    { label: '4', id: 4, icon: '../assets/button/1.png' },
+    { label: '1', id: 1, icon: new URL('../../assets/button/1.png', import.meta.url).href },
+    { label: '2', id: 2, icon: new URL('../../assets/button/2.png', import.meta.url).href },
+    { label: '3', id: 3, icon: new URL('../../assets/button/3.png', import.meta.url).href },
+    { label: '4', id: 4, icon: new URL('../../assets/button/1.png', import.meta.url).href },
 ],[
-    { label: '1', id: 1, icon: '../assets/button/3.png' },
-    { label: '2', id: 2, icon: '../assets/button/2.png' },
-    { label: '3', id: 3, icon: '../assets/button/1.png' },
-    { label: '4', id: 4, icon: '../assets/button/1.png' },
+    { label: '1', id: 1, icon: new URL('../../assets/button/3.png', import.meta.url).href },
+    { label: '2', id: 2, icon: new URL('../../assets/button/2.png', import.meta.url).href },
+    { label: '3', id: 3, icon: new URL('../../assets/button/1.png', import.meta.url).href },
+    { label: '4', id: 4, icon: new URL('../../assets/button/1.png', import.meta.url).href },
 ]
 ])
 
 const clipMenuList3 = ref([
-    { label: '测绘', id: 1, icon: '../assets/button/11.png' },
-    { label: '信息', id: 2, icon: '../assets/button/22.png' },
-    { label: '地质', id: 3, icon: '../assets/button/33.png' },
-    { label: '供变电', id: 4, icon: '../assets/button/44.png' },
-    { label: '机量', id: 1, icon: '../assets/button/55.png' },
-    { label: '结构', id: 2, icon: '../assets/button/66.png' },
+    { label: '测绘', id: 1, icon: new URL('../../assets/button/11.png', import.meta.url).href },
+    { label: '信息', id: 2, icon: new URL('../../assets/button/22.png', import.meta.url).href },
+    { label: '地质', id: 3, icon: new URL('../../assets/button/33.png', import.meta.url).href },
+    { label: '供变电', id: 4, icon: new URL('../../assets/button/44.png', import.meta.url).href },
+    { label: '机量', id: 1, icon: new URL('../../assets/button/55.png', import.meta.url).href },
+    { label: '结构', id: 2, icon: new URL('../../assets/button/66.png', import.meta.url).href },
 ])
 
 const chipMenuClick = ({ id }) => {
